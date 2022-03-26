@@ -2,19 +2,46 @@
 	background-color: #C8C8C8;
 	height: 55px;
 	line-height: 55px;
-	opacity: 0.7;
+	/*opacity: 0.7;*/
 	font-weight: bold;
-	color: black;
 }
 
-#home{
+.center{
+
+}
+
+.footer{
+	background-color: #6A5ACD;
+	height: 100px;
+	text-align: center;
+	color: white;
+	font-size: small;
+	position: relative;
+}
+
+.copr{
+	width: 500px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.home{
 	color: black;
 	text-decoration: none;
 	font-size: x-large;
 }
 
-#link{
+.link{
 	color: black;
 	text-decoration: none;
 	font-size: large;
+}
+
+.intro{
+	top: ;
 }
