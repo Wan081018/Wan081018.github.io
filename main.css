@@ -78,3 +78,37 @@ body{
 	font-size: large;
 	color: white;
 }
+
+.intro{
+	width: 400px;
+	height: 400px;
+}
+
+.bintro{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 20px;
+}
+
+.grav{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	top: -400px;
+	left: 125px;
+}
+
+.follow{
+	width: 150px;
+	height: 40px;
+	position: relative;
+	top: -400px;
+	left: 125px;
+	line-height: 40px;
+	font-size: large;
+	text-align: center;
+	background-color: #00BFFF;
+	opacity: 1.0;
+}
