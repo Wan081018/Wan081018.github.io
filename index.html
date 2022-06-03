@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="shortcut icon" href="css/favicon.png">
-	<title>WAN's Blog</title>
+	<script src="js/main.js"></script>
+	<title>wan's blog</title>
 </head>
+
 <body>
+
 	<div class="header">
-		<span class="home">
-			<a class="link" href="http://Wan081018.github.io">&ensp;&ensp;WAN's Blog</a>
+		<span class="lft_nav">
+			<a href="http://Wan081018.github.io/">&ensp;&ensp;Wan's Blog</a>
 		</span>
-		<span class="func">
-			<a class="link" href="http://Wan081018.github.io/search">Search&ensp;&ensp;&ensp;</a>
-			<a class="link" href="http://Wan081018.github.io/chat">Chat here&ensp;&ensp;&ensp;</a>
-			<a class="link" href="http://Wan081018.github.io/article">Article&ensp;&ensp;&ensp;</a>
+		<span class="rgt_nav">
+			<span onclick="search_it()">
+				<img src="css/search.png"/>
+				Search&ensp;&ensp;&ensp;&ensp;&ensp;
+			</span>
+			<span onmouseover="display_it()">
+				Article&ensp;&ensp;&ensp;&ensp;&ensp;
+			</span>
 		</span>
 	</div>
+
 	<div class="center">
-		<div class="list">
+		<div class="tabbar">
 			<div class="intro">
-				<div class="bintro"></div>
-				<img class="grav" src="favicon.png"/>
+				<img src="css/favicon.png"/>
+				<div class="wan">
+					wan's blog
+				</div>
+				<div class="article">
+					
+				</div>
 				<div class="follow">
-					<a style="color: white;" class="link" href="https://github.com/Wan081018">Follow Me</a>
+					
 				</div>
 			</div>
-			<div class="">
+			<div class="catalog">
 				
 			</div>
 		</div>
@@ -35,6 +48,7 @@
 			
 		</div>
 	</div>
+
 	<div class="footer">
 		<div class="copr">
 			©2022 by Wan081018.<br/>
@@ -42,5 +56,7 @@
 			Welcome to my blog.<br/>
 		</div>
 	</div>
+
 </body>
+
 </html>
