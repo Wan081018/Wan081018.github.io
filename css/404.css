@@ -1,0 +1,10 @@
+.404_text{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 1000px;
+	height: 1000px;
+	opacity: 0.85;
+	border-radius: 20px;
+	background-color: white;
+}
