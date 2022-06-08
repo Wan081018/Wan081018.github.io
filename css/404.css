@@ -1,10 +1,21 @@
-.404_text{
+._404_text{
+	padding: 50px;
+	left: 50%;
+	margin-left:-400px;
 	position: absolute;
-	top: 10px;
-	left: 10px;
-	width: 1000px;
-	height: 1000px;
+	font-size: x-large;
+	top: 100px;
+	width: 800px;
+	height: 200px;
 	opacity: 0.85;
 	border-radius: 20px;
 	background-color: white;
+}
+
+.real_text{
+	text-align: center;
+}
+
+._404_text a{
+	font-weight: bold;
 }
