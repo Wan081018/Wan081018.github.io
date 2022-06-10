@@ -4,7 +4,7 @@ html{
 
 body{
 	height: 100%;
-	margin: 0 0 0 0;
+	margin: 0;
 	font-family: "Microsoft YaHei", sans-serif;
 }
 
@@ -17,26 +17,32 @@ button{
 	all: unset;
 }
 
+/*--------------------------------------------------*/
+
 .header{
 	width: 100%;
 	height: 60px;
 	position: fixed;
 	background-color: #C8C8C8;
 	opacity: 0.90;
-	z-index: 9999;
+	z-index: 1;
 }
 
 .center{
-	width: 100%;
-	height: 100%;
+	position: relative;
+	min-height: 100%;
+	padding: 100px 60px 60px;
 	background: url(bg.png);
 }
 
 .footer{
-	width: 100%;
-	height: 170px;
+	position: relative;
+	padding: 40px 0px;
+	height: 100px;
 	background-color: #6A5ACD;
 }
+
+/*--------------------------------------------------*/
 
 .lft_nav{
 	float: left;
@@ -53,28 +59,38 @@ button{
 	vertical-align: middle;
 }
 
-.rgt_nav img{
-	width: 20px;
-	height: 20px;
-	vertical-align: middle;
+.search_div{
+	display: none;
 }
 
-.tabbar{
-	margin: 0 0 0 20px;
-	width: 400px;
-	position: relative;
-	top: 100px;
-	bottom: 60px;
-	left: 60px;
+.article_list{
+	display: none;
+}
+
+.intro{
+	position: absolute;
+	padding: 30px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	opacity: 0.85;
+	border-radius: 20px;
+}
+
+.catalog{
+	position: absolute;
+	width: 300px;
+	padding: 30px;
+	top: 500px;
+	height: 100%;
+	background-color: white;
+	opacity: 0.85;
+	border-radius: 20px;
 }
 
 .text{
 	width: 900px;
-	height: 1420px;
-	position: relative;
-	top: 100px;
-	bottom: 60px;
-	left: 500px;
+	position: absolute;
 	background-color: white;
 	opacity: 0.85;
 	border-radius: 20px;
@@ -83,8 +99,7 @@ button{
 .copr{
 	height: 85px;
 	width: 200px;
-	position: relative;
-	top: 40px;
+	position: absolute;
 	left: 50%;
 	margin-left:-100px;
 	text-align: center;
@@ -92,38 +107,30 @@ button{
 	color: white;
 }
 
-.intro{
-	position: relative;
-	width: 400px;
-	height: 400px;
-	background-color: white;
-	opacity: 0.85;
-	border-radius: 20px;
-}
+/*--------------------------------------------------*/
 
-.catalog{
-	position: relative;
-	top: 420px;
-	width: 400px;
-	height: 1000px;
-	background-color: white;
-	opacity: 0.85;
-	border-radius: 20px;
+.rgt_nav img{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
 }
 
 .intro img{
-	margin: 30px 30px 30px 30px;
 	width: 100px;
 	height: 100px;
-	position: relative;
+	position: absolute;
 	left: 50%;
 	margin-left: -50px;
 }
 
-.search_div{
-	display: none;
+.wan{
+
 }
 
-.article_list{
-	display: none;
+.article{
+
+}
+
+.follow{
+
 }
