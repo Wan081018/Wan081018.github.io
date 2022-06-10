@@ -13,24 +13,28 @@
 
 	<div class="header">
 		<span class="lft_nav">
-			<a href="http://Wan081018.github.io/">&ensp;&ensp;Wan's Blog</a>
+			<a href="http://Wan081018.github.io/">
+				&ensp;&ensp;Wan's Blog
+			</a>
 		</span>
 		<span class="rgt_nav">
-			<button onclick="search_it()">
+			<button onclick="search_it()", style="cursor: pointer;">
 				<img src="css/search.png"/>
 				Search&ensp;&ensp;&ensp;&ensp;&ensp;
+				<div class="search_div">
+					
+				</div>
 			</button>
-			<button onmouseover="display_it()">
+			<button onmouseover="display_it()" onmouseout="hide_it()">
 				<img src="css/article.png"/>
-				Article&ensp;&ensp;&ensp;&ensp;&ensp;
+				Article
+				<img id="over" src="css/down.png"/>
+				&ensp;&ensp;&ensp;&ensp;&ensp;
+				<div class="article_list">
+					
+				</div>
 			</button>
 		</span>
-		<div class="search_div">
-				
-		</div>
-		<div class="article_list">
-			
-		</div>
 	</div>
 
 	<div class="center">
