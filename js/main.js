@@ -3,6 +3,11 @@ function display(class_name){
 	return;
 }
 
+function hide(class_name){
+	class_name.setAttribute("display", "none");
+	return;
+}
+
 function search_it(){
 	var url;
 	display(document.getElementsByClassName("search_div")[0]);
@@ -12,5 +17,12 @@ function search_it(){
 
 function display_it(){
 	display(document.getElementsByClassName("article_list")[0]);
+	document.getElementById("over").src =  "css/up.png";
+	return;
+}
+
+function hide_it(){
+	hide(document.getElementsByClassName("article_list")[0]);
+	document.getElementById("over").src =  "css/down.png";
 	return;
 }
