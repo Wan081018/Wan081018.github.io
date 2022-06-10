@@ -33,7 +33,7 @@ button{
 	position: relative;
 	min-height: 100%;
 	padding: 100px 60px 60px;
-	background: url(bg.png);
+	background: url(bg1.jpg);
 }
 
 .footer{
@@ -58,7 +58,6 @@ button{
 	font-weight: bold;
 	line-height: 60px;
 	vertical-align: middle;
-	cursor: pointer;
 }
 
 .search_div{
@@ -110,6 +109,10 @@ button{
 }
 
 /*--------------------------------------------------*/
+
+#over{
+	
+}
 
 .rgt_nav img{
 	width: 20px;
