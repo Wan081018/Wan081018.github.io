@@ -19,6 +19,14 @@ button{
 
 /*--------------------------------------------------*/
 
+.background{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: -1;
+}
+
 .header{
 	width: 100%;
 	height: 60px;
@@ -33,7 +41,7 @@ button{
 	position: relative;
 	min-height: 100%;
 	padding: 100px 60px 60px;
-	background: url(bg1.jpg);
+	background-size: covers;
 }
 
 .footer{
