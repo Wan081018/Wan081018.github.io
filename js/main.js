@@ -17,12 +17,12 @@ function search_it(){
 
 function display_it(){
 	display(document.getElementsByClassName("article_list")[0]);
-	document.getElementById("over").src =  "css/up.png";
+	document.getElementById("over").src =  "graph/up.png";
 	return;
 }
 
 function hide_it(){
 	hide(document.getElementsByClassName("article_list")[0]);
-	document.getElementById("over").src =  "css/down.png";
+	document.getElementById("over").src =  "graph/down.png";
 	return;
 }
