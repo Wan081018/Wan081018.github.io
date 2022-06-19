@@ -68,11 +68,11 @@ button{
 	display: none;
 	top: 60px;
 	position: fixed;
-	height: 300px;
+	height: 150px;
 	width: 120px;
 	background-color: white;
 	opacity: 0.85;
-	border-radius: 20px;
+	border-radius: 7px;
 }
 
 .background{
@@ -141,7 +141,6 @@ button{
 }
 
 .rgt_nav img{
-	width: 20px;
 	height: 20px;
 	vertical-align: middle;
 }
@@ -155,10 +154,17 @@ button{
 }
 
 #article_list a{
-	width: 100%;
-	text-align: center;
+	display: block;
+	position: relative;
+	height: 40px;
+	left: 10px;
 	font-weight: normal;
 	font-size: medium;
+}
+
+#article_list img{
+	height: 20px;
+	vertical-align: middle;
 }
 
 .wan{
