@@ -1,21 +1,25 @@
-._404_text{
-	padding: 50px;
+#_404_text{
+	padding: 30px;
 	left: 50%;
 	margin-left:-400px;
 	position: absolute;
-	font-size: x-large;
 	top: 100px;
 	width: 800px;
 	height: 200px;
-	opacity: 0.85;
-	border-radius: 20px;
-	background-color: white;
 }
 
-.real_text{
+#real_title{
+	font-size: xx-large;
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#real_text{
+	font-size: large;
 	text-align: center;
 }
 
-._404_text a{
+#_404_text a{
 	font-weight: bold;
 }
