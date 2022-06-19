@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="shortcut icon" href="graph/favicon.png">
-	<script src="js/main.js"></script>
 	<title>wan's blog</title>
 </head>
 
@@ -21,7 +20,7 @@
 			<button onclick="search_it()", style="cursor: pointer;">
 				<img src="graph/search.png"/>
 				Search&ensp;&ensp;&ensp;&ensp;&ensp;
-				<div class="search_div">
+				<div id="search_div">
 					
 				</div>
 			</button>
@@ -30,8 +29,10 @@
 				Article
 				<img id="over" src="graph/down.png"/>
 				&ensp;&ensp;&ensp;&ensp;&ensp;
-				<div class="article_list">
-					
+				<div id="article_list">
+					<a href="http://Wan081018.github.io/article/">
+						article
+					</a>
 				</div>
 			</button>
 		</span>
@@ -46,13 +47,53 @@
 					Wan
 				</a>
 			</div>
-			<div class="article">
-				
-			</div>
 			<div class="follow">
 				<a href="http://github.com/Wan081018/">
 					Follow me
 				</a>
+			</div>
+		</div>
+		<div class="info">
+			<div class="_title">
+				<img src="graph/info.png"/>
+				Information
+			</div>
+			<div class="_text">
+				<span style="float: left;">
+					Article :
+				</span>
+				<span style="float: right;">
+					0
+				</span>
+				<br/>
+				<span style="float: left;">
+					Tag :
+				</span>
+				<span style="float: right;">
+					0
+				</span>
+				<br/>
+				<span style="float: left;">
+					PV :
+				</span>
+				<span style="float: right;">
+					0
+				</span>
+				<br/>
+				<span style="float: left;">
+					UV :
+				</span>
+				<span style="float: right;">
+					0
+				</span>
+				<br/>
+				<span style="float: left;">
+					IP :
+				</span>
+				<span style="float: right;">
+					0
+				</span>
+				<br/>
 			</div>
 		</div>
 		<div class="catalog">
@@ -72,5 +113,7 @@
 	</div>
 
 </body>
+
+<script src="js/main.js"></script>
 
 </html>
