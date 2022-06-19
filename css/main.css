@@ -19,14 +19,6 @@ button{
 
 /*--------------------------------------------------*/
 
-.background{
-	top: 0;
-	left: 0;
-	position: fixed;
-	width: 100%;
-	z-index: -1;
-}
-
 .header{
 	width: 100%;
 	height: 60px;
@@ -40,8 +32,8 @@ button{
 	overflow: hidden;
 	position: relative;
 	min-height: 100%;
+	height: 2000px;
 	padding: 100px 60px 60px;
-	background-size: covers;
 }
 
 .footer{
@@ -68,12 +60,27 @@ button{
 	vertical-align: middle;
 }
 
-.search_div{
+#search_div{
 	display: none;
 }
 
-.article_list{
+#article_list{
 	display: none;
+	top: 60px;
+	position: fixed;
+	height: 300px;
+	width: 120px;
+	background-color: white;
+	opacity: 0.85;
+	border-radius: 20px;
+}
+
+.background{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: -1;
 }
 
 .intro{
@@ -86,12 +93,23 @@ button{
 	border-radius: 20px;
 }
 
+.info{
+	position: absolute;
+	top: 500px;
+	padding: 30px;
+	width: 300px;
+	height: 230px;
+	background-color: white;
+	opacity: 0.85;
+	border-radius: 20px;
+}
+
 .catalog{
 	position: absolute;
 	width: 300px;
 	padding: 30px;
-	top: 500px;
-	height: 100%;
+	top: 830px;
+	height: 1000px;
 	background-color: white;
 	opacity: 0.85;
 	border-radius: 20px;
@@ -136,31 +154,52 @@ button{
 	margin-left: -50px;
 }
 
+#article_list a{
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+	font-size: medium;
+}
+
 .wan{
 	position: absolute;
-	top: 140px;
+	top: 150px;
 	left: 50%;
 	width: 100px;
 	margin-left: -50px;
 	text-align: center;
-	font-size: x-large;
+	font-size: xx-large;
 	font-weight: bold;
-}
-
-.article{
-
 }
 
 .follow{
 	color: white;
 	position: absolute;
-	top: 200px;
-	width: 150px;
+	top: 220px;
+	width: 200px;
 	height: 40px;
 	left: 50%;
 	text-align: center;
 	font-size: large;
 	line-height: 40px;
-	margin-left: -75px;
+	margin-left: -100px;
 	background-color: #49B1F5;
+}
+
+._title{
+	font-weight: bold;
+	font-size: large;
+}
+
+._text{
+	padding: 20px 50px 20px 30px;
+	line-height: 30px;
+}
+
+/*--------------------------------------------------*/
+
+._title img{
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
 }
