@@ -1,28 +1,28 @@
-function display(class_name){
-	class_name.setAttribute("display", "inherit");
+function display(id){
+	id.style.display = "block";
 	return;
 }
 
-function hide(class_name){
-	class_name.setAttribute("display", "none");
+function hide(id){
+	id.style.display = "none";
 	return;
 }
 
 function search_it(){
 	var url;
-	display(document.getElementsByClassName("search_div")[0]);
+	display(document.getElementById("search_div"));
 	window.location.href = url;
 	return;
 }
 
 function display_it(){
-	display(document.getElementsByClassName("article_list")[0]);
-	document.getElementById("over").src =  "graph/up.png";
+	display(document.getElementById("article_list"));
+	document.getElementById("over").src = "graph/up.png";
 	return;
 }
 
 function hide_it(){
-	hide(document.getElementsByClassName("article_list")[0]);
-	document.getElementById("over").src =  "graph/down.png";
+	hide(document.getElementById("article_list"));
+	document.getElementById("over").src = "graph/down.png";
 	return;
 }
