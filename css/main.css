@@ -17,9 +17,31 @@ button{
 	all: unset;
 }
 
+._div{
+	background-color: white;
+	opacity: 0.85;
+	border-radius: 20px;
+}
+
+._title{
+	font-weight: bold;
+	font-size: large;
+}
+
+._text{
+	padding: 20px 50px 20px 30px;
+	line-height: 30px;
+}
+
+._title img{
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+}
+
 /*--------------------------------------------------*/
 
-.header{
+#header{
 	width: 100%;
 	height: 60px;
 	position: fixed;
@@ -28,7 +50,7 @@ button{
 	z-index: 1;
 }
 
-.center{
+#center{
 	overflow: hidden;
 	position: relative;
 	min-height: 100%;
@@ -36,7 +58,7 @@ button{
 	padding: 100px 60px 60px;
 }
 
-.footer{
+#footer{
 	position: relative;
 	padding: 40px 0px;
 	height: 100px;
@@ -45,14 +67,14 @@ button{
 
 /*--------------------------------------------------*/
 
-.lft_nav{
+#lft_nav{
 	float: left;
 	font-size: xx-large;
 	font-weight: bold;
 	line-height: 60px;
 }
 
-.rgt_nav{
+#rgt_nav{
 	float: right;
 	font-size: large;
 	font-weight: bold;
@@ -71,11 +93,10 @@ button{
 	height: 150px;
 	width: 120px;
 	background-color: white;
-	opacity: 0.85;
 	border-radius: 7px;
 }
 
-.background{
+#background{
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -83,47 +104,35 @@ button{
 	z-index: -1;
 }
 
-.intro{
+#intro{
 	position: absolute;
 	padding: 30px;
 	width: 300px;
 	height: 300px;
-	background-color: white;
-	opacity: 0.85;
-	border-radius: 20px;
 }
 
-.info{
+#info{
 	position: absolute;
 	top: 500px;
 	padding: 30px;
 	width: 300px;
 	height: 230px;
-	background-color: white;
-	opacity: 0.85;
-	border-radius: 20px;
 }
 
-.catalog{
+#catalog{
 	position: absolute;
 	width: 300px;
 	padding: 30px;
 	top: 830px;
 	height: 1000px;
-	background-color: white;
-	opacity: 0.85;
-	border-radius: 20px;
 }
 
-.text{
+#text{
 	width: 900px;
 	position: absolute;
-	background-color: white;
-	opacity: 0.85;
-	border-radius: 20px;
 }
 
-.copr{
+#copr{
 	height: 85px;
 	width: 200px;
 	position: absolute;
@@ -140,12 +149,12 @@ button{
 	
 }
 
-.rgt_nav img{
+#rgt_nav img{
 	height: 20px;
 	vertical-align: middle;
 }
 
-.intro img{
+#intro img{
 	width: 100px;
 	height: 100px;
 	position: absolute;
@@ -167,7 +176,7 @@ button{
 	vertical-align: middle;
 }
 
-.wan{
+#wan{
 	position: absolute;
 	top: 150px;
 	left: 50%;
@@ -178,7 +187,7 @@ button{
 	font-weight: bold;
 }
 
-.follow{
+#follow{
 	color: white;
 	position: absolute;
 	top: 220px;
@@ -190,22 +199,4 @@ button{
 	line-height: 40px;
 	margin-left: -100px;
 	background-color: #49B1F5;
-}
-
-._title{
-	font-weight: bold;
-	font-size: large;
-}
-
-._text{
-	padding: 20px 50px 20px 30px;
-	line-height: 30px;
-}
-
-/*--------------------------------------------------*/
-
-._title img{
-	height: 20px;
-	width: 20px;
-	vertical-align: middle;
 }
